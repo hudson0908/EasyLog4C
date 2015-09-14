@@ -1,0 +1,8 @@
+; Log4Infi.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Log4InfiX64"
+
+EXPORTS
+    ; Explicit exports can go here
+    infini_log_output
+    infini_log_init
