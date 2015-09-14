@@ -38,8 +38,8 @@ select_priority_type=2
   
 
 Also, you can use the MACRO which let you coding easy for output the log.
-\#define SSSKINKODAKE_MODEULE "StreamSocket"
-\#define INFINI_TRACE_LOG(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_TRACE, msg)
-\#define INFINI_ERROR_LOG(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_ERROR, "[%s()⇒%s:%d]【%s】",   __FILE__, __FUNC__, __LINE__, msg)
-\#define INFINI_NOTICE_LOG(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_NOTICE,"[%s()⇒%s:%d]【%s】", __FILE__, __FUNCTION__, __LINE__, msg)
-\#define INFINI_TRACE_LOG_DETAIL(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_TRACE, "[%s()⇒%s:%d]【%s】", __FILE__, __FUNC__, __LINE__, msg)
+#define SSSKINKODAKE_MODEULE "StreamSocket"
+#define INFINI_TRACE_LOG(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_TRACE, msg)
+#define INFINI_ERROR_LOG(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_ERROR, "[%s()⇒%s:%d]【%s】",   __FILE__, __FUNC__, __LINE__, msg)
+#define INFINI_NOTICE_LOG(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_NOTICE,"[%s()⇒%s:%d]【%s】", __FILE__, __FUNCTION__, __LINE__, msg)
+#define INFINI_TRACE_LOG_DETAIL(msg) infini_log_output(SSSKINKODAKE_MODEULE, LOG_PRIORITY_TRACE, "[%s()⇒%s:%d]【%s】", __FILE__, __FUNC__, __LINE__, msg)
